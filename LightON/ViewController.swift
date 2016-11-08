@@ -7,27 +7,27 @@
 //
 
 import UIKit
-
+import AVFoundation
 
 class ViewController: UIViewController {
 
     var check :Bool!
-    let avDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
-    
     
     @IBOutlet weak var buttonLight: UIButton!
     
     @IBAction func tapLight(_ sender: UIButton) {
-        if !check
-        {
-            buttonLight.setImage(UIImage(named: "lightOn.png"), for: UIControlState.normal)
-            check = true
-        }else
-        {
-            buttonLight.setImage(UIImage(named: "lightOff.png"), for: UIControlState.normal)
-            check = false
+        if  !check
+            {
+                buttonLight.setImage(UIImage(named: "lightOn.png"), for: UIControlState.normal)
+                    check = true
+            }else
+            {
+                
+                buttonLight.setImage(UIImage(named: "lightOff.png"), for: UIControlState.normal)
+                check = false
+            }
         }
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         check = false
@@ -38,7 +38,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // Check flash on iphone device
+    func noFlashAvailable() {
+        
+        let alert = UIAlertController(title: "Unsupported Device", message: "Your device does not have a torch/flash!", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        
+    }
 
 }
 
