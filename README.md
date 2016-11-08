@@ -11,4 +11,5 @@
   
   https://developer.apple.com/reference/avfoundation/avcapturedevice
   http://stackoverflow.com/questions/32924974/how-to-turn-on-the-flash-light-with-swift
+  https://github.com/russjr08/Flashlight
  
