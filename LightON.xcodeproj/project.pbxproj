@@ -12,6 +12,8 @@
 		DC44DA1C1DD15AE3005D7CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1A1DD15AE3005D7CED /* Main.storyboard */; };
 		DC44DA1E1DD15AE3005D7CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1D1DD15AE3005D7CED /* Assets.xcassets */; };
 		DC44DA211DD15AE3005D7CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1F1DD15AE3005D7CED /* LaunchScreen.storyboard */; };
+		DC44DA2A1DD15FF8005D7CED /* lightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA281DD15FF8005D7CED /* lightOff.png */; };
+		DC44DA2B1DD15FF8005D7CED /* lightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA291DD15FF8005D7CED /* lightOn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC44DA1D1DD15AE3005D7CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC44DA201DD15AE3005D7CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC44DA221DD15AE3005D7CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC44DA281DD15FF8005D7CED /* lightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightOff.png; sourceTree = "<group>"; };
+		DC44DA291DD15FF8005D7CED /* lightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightOn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		DC44DA151DD15AE3005D7CED /* LightON */ = {
 			isa = PBXGroup;
 			children = (
+				DC44DA281DD15FF8005D7CED /* lightOff.png */,
+				DC44DA291DD15FF8005D7CED /* lightOn.png */,
 				DC44DA161DD15AE3005D7CED /* AppDelegate.swift */,
 				DC44DA181DD15AE3005D7CED /* ViewController.swift */,
 				DC44DA1A1DD15AE3005D7CED /* Main.storyboard */,
@@ -126,6 +132,8 @@
 			files = (
 				DC44DA211DD15AE3005D7CED /* LaunchScreen.storyboard in Resources */,
 				DC44DA1E1DD15AE3005D7CED /* Assets.xcassets in Resources */,
+				DC44DA2B1DD15FF8005D7CED /* lightOn.png in Resources */,
+				DC44DA2A1DD15FF8005D7CED /* lightOff.png in Resources */,
 				DC44DA1C1DD15AE3005D7CED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
