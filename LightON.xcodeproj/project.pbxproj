@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC44DA171DD15AE3005D7CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44DA161DD15AE3005D7CED /* AppDelegate.swift */; };
+		DC44DA191DD15AE3005D7CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44DA181DD15AE3005D7CED /* ViewController.swift */; };
+		DC44DA1C1DD15AE3005D7CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1A1DD15AE3005D7CED /* Main.storyboard */; };
+		DC44DA1E1DD15AE3005D7CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1D1DD15AE3005D7CED /* Assets.xcassets */; };
+		DC44DA211DD15AE3005D7CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC44DA1F1DD15AE3005D7CED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC44DA131DD15AE3005D7CED /* LightON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC44DA161DD15AE3005D7CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC44DA181DD15AE3005D7CED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC44DA1B1DD15AE3005D7CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC44DA1D1DD15AE3005D7CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC44DA201DD15AE3005D7CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC44DA221DD15AE3005D7CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC44DA101DD15AE3005D7CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC44DA0A1DD15AE3005D7CED = {
+			isa = PBXGroup;
+			children = (
+				DC44DA151DD15AE3005D7CED /* LightON */,
+				DC44DA141DD15AE3005D7CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC44DA141DD15AE3005D7CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC44DA131DD15AE3005D7CED /* LightON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC44DA151DD15AE3005D7CED /* LightON */ = {
+			isa = PBXGroup;
+			children = (
+				DC44DA161DD15AE3005D7CED /* AppDelegate.swift */,
+				DC44DA181DD15AE3005D7CED /* ViewController.swift */,
+				DC44DA1A1DD15AE3005D7CED /* Main.storyboard */,
+				DC44DA1D1DD15AE3005D7CED /* Assets.xcassets */,
+				DC44DA1F1DD15AE3005D7CED /* LaunchScreen.storyboard */,
+				DC44DA221DD15AE3005D7CED /* Info.plist */,
+			);
+			path = LightON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC44DA121DD15AE3005D7CED /* LightON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC44DA251DD15AE3005D7CED /* Build configuration list for PBXNativeTarget "LightON" */;
+			buildPhases = (
+				DC44DA0F1DD15AE3005D7CED /* Sources */,
+				DC44DA101DD15AE3005D7CED /* Frameworks */,
+				DC44DA111DD15AE3005D7CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightON;
+			productName = LightON;
+			productReference = DC44DA131DD15AE3005D7CED /* LightON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC44DA0B1DD15AE3005D7CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = doantuan;
+				TargetAttributes = {
+					DC44DA121DD15AE3005D7CED = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 25ZS53YZR8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC44DA0E1DD15AE3005D7CED /* Build configuration list for PBXProject "LightON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC44DA0A1DD15AE3005D7CED;
+			productRefGroup = DC44DA141DD15AE3005D7CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC44DA121DD15AE3005D7CED /* LightON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC44DA111DD15AE3005D7CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC44DA211DD15AE3005D7CED /* LaunchScreen.storyboard in Resources */,
+				DC44DA1E1DD15AE3005D7CED /* Assets.xcassets in Resources */,
+				DC44DA1C1DD15AE3005D7CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC44DA0F1DD15AE3005D7CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC44DA191DD15AE3005D7CED /* ViewController.swift in Sources */,
+				DC44DA171DD15AE3005D7CED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC44DA1A1DD15AE3005D7CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC44DA1B1DD15AE3005D7CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC44DA1F1DD15AE3005D7CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC44DA201DD15AE3005D7CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC44DA231DD15AE3005D7CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC44DA241DD15AE3005D7CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC44DA261DD15AE3005D7CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZS53YZR8;
+				INFOPLIST_FILE = LightON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = doantuan.LightON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC44DA271DD15AE3005D7CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZS53YZR8;
+				INFOPLIST_FILE = LightON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = doantuan.LightON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC44DA0E1DD15AE3005D7CED /* Build configuration list for PBXProject "LightON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC44DA231DD15AE3005D7CED /* Debug */,
+				DC44DA241DD15AE3005D7CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC44DA251DD15AE3005D7CED /* Build configuration list for PBXNativeTarget "LightON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC44DA261DD15AE3005D7CED /* Debug */,
+				DC44DA271DD15AE3005D7CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC44DA0B1DD15AE3005D7CED /* Project object */;
+}
